@@ -1,0 +1,144 @@
+/* BACKGROUND IMAGE */
+body{
+    background-image:url('./images/bgImg.png') ;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAV BAR */
+#mainNavbar {
+    top: 3%;
+    color:#FFFFFF;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#mainNavbar .nav-link:hover {
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+}
+#mainNavbar .navbar-brand {
+    color: #443535;
+    font-size: 35px;
+}
+#mainNavbar .nav-item {
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.custom-nav{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.nav-item{
+    margin-right: 100px;
+}
+
+.nav-cls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* HOW IT WORKS SECTION (IMAGE & CONTENTS)*/
+.div1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+.div1 img {
+    width: 50%;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+.div2 img {
+    width: 50%;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+.div3 img {
+    width: 50%;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+.div4 img {
+    width: 50%;
+}
+
+/* iframe section */
+.iframecls{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px ;
+}
+.mainframediv{
+    display: flex;
+}
+.framelistcls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listcls{
+    margin: 25px 25px 25px 25px;
+    display: flex;
+    align-items: center;
+}
+
+/* HOW IT WORKS SECTION (TEXT CONTENTS) */
+.customcls{
+    margin-top: 50px;
+}
+.customiframeimg{
+    margin: 10px 10px 10px;
+    border-radius: 25px;
+}
+
+.container1 {
+    font-size: 1.1em;
+    font-weight: 100px;
+    color: rgb(75, 12, 75);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* FOOTER SECTION */
+.footercls{
+    background-color: black;
+    font-style: italic;
+    color: white;
+}
+.listcls{
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+}
